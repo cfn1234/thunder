@@ -1,0 +1,12 @@
+###################  项目配置  ###################
+server:
+  port: 8081
+  tomcat:
+    uri-encoding: UTF-8 # 配置Tomcat编码，默认为UTF-8
+    accesslog:
+      directory: /logs/wxcep-new/wyms/wxcep_access_log/
+
+logging:
+  level:
+    root: info
+    javax.net.ssl: debug
